@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_PlanePrefab: {fileID: 1395161144}
-  m_DetectionMode: -1
+  m_DetectionMode: 1
 --- !u!114 &3317238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -361,7 +361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arRaycaster: {fileID: 3317236}
-  placeObject: {fileID: 919132149155446097, guid: f965128a484bec2469bcb3a24d0adcf5,
+  placeObject: {fileID: 8588115379147016874, guid: 3ffb42c9597b9b44da7cdfb5743e88c2,
     type: 3}
 --- !u!4 &872413896
 Transform:
@@ -810,7 +810,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.99215686, g: 0.72156864, b: 0.07450981, a: 1}
+      maxColor: {r: 0.31372553, g: 0.8862745, b: 0.5481099, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
