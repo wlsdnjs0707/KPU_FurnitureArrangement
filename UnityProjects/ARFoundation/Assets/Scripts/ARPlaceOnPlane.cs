@@ -8,8 +8,7 @@ public class ARPlaceOnPlane : MonoBehaviour
 {
     public ARRaycastManager arRaycaster;
     public GameObject placeObject;
-
-    GameObject spawnObject;
+    public static GameObject spawnObject;
 
     // Start is called before the first frame update
     void Start()
@@ -24,27 +23,31 @@ public class ARPlaceOnPlane : MonoBehaviour
     }
     private void PlaceObjectByTouch()
     {
-        if (Input.touchCount>0) // 터치 발생 시
+        if (Input.GetTouch(0).position[1] > 500) // 버튼 UI 보다 위에만 객체 생성 가능
         {
-            Touch touch = Input.GetTouch(0); // 첫 터치 위치
-
-            List<ARRaycastHit> hits = new List<ARRaycastHit>();
-
-            if (arRaycaster.Raycast(touch.position, hits, TrackableType.Planes))
+            if (Input.touchCount > 0) // 터치 발생 시
             {
-                Pose hitPose = hits[0].pose;
+                Touch touch = Input.GetTouch(0); // 첫 터치 위치
 
-                if (!spawnObject)
+                List<ARRaycastHit> hits = new List<ARRaycastHit>();
+
+                if (arRaycaster.Raycast(touch.position, hits, TrackableType.Planes))
                 {
-                    spawnObject = Instantiate(placeObject, hitPose.position, hitPose.rotation);
-                }
-                else
-                {
-                    spawnObject.transform.position = hitPose.position;
-                    spawnObject.transform.rotation = hitPose.rotation;
+                    Pose hitPose = hits[0].pose;
+
+                    if (!spawnObject)
+                    {
+                        spawnObject = Instantiate(placeObject, hitPose.position, hitPose.rotation);
+                    }
+                    else
+                    {
+                        spawnObject.transform.position = hitPose.position;
+                        spawnObject.transform.rotation = hitPose.rotation;
+                    }
                 }
             }
         }
+
     }
 
     private void UpdateCenterObject() // 객체 자동 이동
