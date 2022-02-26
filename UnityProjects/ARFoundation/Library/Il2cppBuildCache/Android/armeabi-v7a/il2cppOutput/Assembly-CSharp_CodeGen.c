@@ -54,7 +54,13 @@ extern void ARPlaceOnPlane_PlaceObjectByTouch_m9C0558F73CD9AB826F929E8D918D52726
 extern void ARPlaceOnPlane_UpdateCenterObject_m0F3E7105FED50B7291BA1D20968A505D28773E5E (void);
 // 0x00000015 System.Void ARPlaceOnPlane::.ctor()
 extern void ARPlaceOnPlane__ctor_m2A46C1FF5EF0D19ED3BB5B7FEF9FCA3F41BFC91D (void);
-static Il2CppMethodPointer s_methodPointers[21] = 
+// 0x00000016 System.Void ButtonTest::OnClickTest()
+extern void ButtonTest_OnClickTest_mC4668C27731ECB23BA637FC0727066C827B285EF (void);
+// 0x00000017 System.Void ButtonTest::OnClickExit()
+extern void ButtonTest_OnClickExit_m000E51AAC463B7B9312BD563CCF7EF3DDEE76BF6 (void);
+// 0x00000018 System.Void ButtonTest::.ctor()
+extern void ButtonTest__ctor_m2908E058365E1EA190A4D34D28538022619A2B78 (void);
+static Il2CppMethodPointer s_methodPointers[24] = 
 {
 	ARFeatheredPlaneMeshVisualizer_get_featheringWidth_m0AAD92A3D682C1DFC1B5630585550B6CAFBAFE32,
 	ARFeatheredPlaneMeshVisualizer_set_featheringWidth_m4761377095817FA81908BC43FD08EF600F6CC231,
@@ -77,37 +83,43 @@ static Il2CppMethodPointer s_methodPointers[21] =
 	ARPlaceOnPlane_PlaceObjectByTouch_m9C0558F73CD9AB826F929E8D918D527261F4866D,
 	ARPlaceOnPlane_UpdateCenterObject_m0F3E7105FED50B7291BA1D20968A505D28773E5E,
 	ARPlaceOnPlane__ctor_m2A46C1FF5EF0D19ED3BB5B7FEF9FCA3F41BFC91D,
+	ButtonTest_OnClickTest_mC4668C27731ECB23BA637FC0727066C827B285EF,
+	ButtonTest_OnClickExit_m000E51AAC463B7B9312BD563CCF7EF3DDEE76BF6,
+	ButtonTest__ctor_m2908E058365E1EA190A4D34D28538022619A2B78,
 };
-static const int32_t s_InvokerIndices[21] = 
+static const int32_t s_InvokerIndices[24] = 
 {
-	1843,
-	1557,
-	1851,
-	1851,
-	1851,
-	1492,
-	1542,
-	1851,
-	3112,
-	1823,
-	1542,
-	1851,
-	1851,
-	1851,
-	1851,
-	3112,
-	1851,
-	1851,
-	1851,
-	1851,
-	1851,
+	2079,
+	1756,
+	2091,
+	2091,
+	2091,
+	1682,
+	1737,
+	2091,
+	3448,
+	2056,
+	1737,
+	2091,
+	2091,
+	2091,
+	2091,
+	3448,
+	2091,
+	2091,
+	2091,
+	2091,
+	2091,
+	2091,
+	2091,
+	2091,
 };
 extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	21,
+	24,
 	s_methodPointers,
 	0,
 	NULL,
