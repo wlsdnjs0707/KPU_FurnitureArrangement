@@ -2,12 +2,12 @@
 ### AR 기술을 이용한 가구 배치 어플리케이션
 <br><br>
 
-## # 시스템 구성도
+## # 1. 시스템 구성도
 ![시스템 구성도](https://user-images.githubusercontent.com/86781939/201482210-351a5591-4e2b-423a-9f5d-520df326df36.PNG)
 
-## # 주요 기능
+## # 2. 주요 기능
 
-### 1. 가구 배치
+### 2-1. 가구 배치
 카메라로 인식한 평면에 터치로 오브젝트 생성
 ```cs
 if (!spawnObject) // 오브젝트가 존재하지 않으면
@@ -17,7 +17,7 @@ if (!spawnObject) // 오브젝트가 존재하지 않으면
 }
 ```
 
-### 2. 가구 이동
+### 2-2. 가구 이동
 배치된 가구를 드래그로 이동
 ```cs
 else // 오브젝트가 이미 존재하면
@@ -27,7 +27,7 @@ else // 오브젝트가 이미 존재하면
 }
 ```
 
-### 3. 가구 회전
+### 2-3. 가구 회전
 배치된 가구를 버튼을 이용해 왼쪽, 오른쪽으로 회전
 ```cs
 if (isButtonDown) // PointerDown 이벤트에서 true, PointerUp 이벤트에서 false
@@ -37,7 +37,7 @@ if (isButtonDown) // PointerDown 이벤트에서 true, PointerUp 이벤트에서
 }
 ```
 
-### 4. 벽 예외처리
+### 2-4. 벽 예외처리
 수직 평면(벽)에는 가구가 배치되지 않게 함
 ```cs
 // arPlaneManager에서 가져온 평면의 속성 중 alignment (Vertical, Horizontal) 구분
@@ -47,7 +47,7 @@ if (arPlaneManager.GetPlane(hits[0].trackableId).alignment == PlaneAlignment.Hor
   spawnObject.transform.position = hitPose.position;
 }
 ```
-### 5. 생성할 가구 변경
+### 2-5. 생성할 가구 변경
 가구 변경 버튼에 onClick 이벤트 할당
 ```cs
 //Resources 폴더에 모델링 저장해두고 Load 하여 사용
@@ -58,6 +58,7 @@ if (officeChair != null)
   spawnObject = Instantiate(officeChair);
 }
 ```
+<br>
 
-## # 테스트
+## # 3. 테스트
 <img src="https://user-images.githubusercontent.com/86781939/169832565-fd7c5f08-5d6b-47cd-b8cc-f42214c66474.png"  width="800" height="600" >
