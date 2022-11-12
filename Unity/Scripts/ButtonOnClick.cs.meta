@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ca80755360b02e24e8069b2d4094812f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - smartTV: {fileID: 919132149155446097, guid: a3a849fceb2f8944983ed7c3d0aa8d0c,
+      type: 3}
+  - wheelArmChair: {fileID: 919132149155446097, guid: afa3e1b950864474885001e02d2053f7,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

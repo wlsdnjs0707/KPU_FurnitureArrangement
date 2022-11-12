@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2b15b735c4e33fb478f05048fc0ec227
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - arRaycaster: {instanceID: 0}
+  - placeObject: {instanceID: 0}
+  - smartTV: {fileID: 919132149155446097, guid: a3a849fceb2f8944983ed7c3d0aa8d0c,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
