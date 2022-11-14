@@ -2,8 +2,8 @@
 ### AR 기술을 이용한 가구 배치 어플리케이션
 <br><br>
 
-## # 1. 시스템 구성도
-![시스템 구성도](https://user-images.githubusercontent.com/86781939/201482210-351a5591-4e2b-423a-9f5d-520df326df36.PNG)
+## # 1. 요약
+![image01](https://user-images.githubusercontent.com/86781939/201742346-52b60a88-c893-4e09-a7ce-be6612b415f2.png)
 
 ## # 2. 주요 기능
 
