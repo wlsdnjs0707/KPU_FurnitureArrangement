@@ -3,7 +3,7 @@
 <br><br>
 
 ## # 1. 요약
-![image01](https://user-images.githubusercontent.com/86781939/201742346-52b60a88-c893-4e09-a7ce-be6612b415f2.png)
+<img src="[https://user-images.githubusercontent.com/86781939/169832565-fd7c5f08-5d6b-47cd-b8cc-f42214c66474.png](https://user-images.githubusercontent.com/86781939/201742625-607d8268-d511-402c-9294-ae344513b714.PNG)"  width="1100" height="600" >
 
 ## # 2. 주요 기능
 
