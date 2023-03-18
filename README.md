@@ -9,7 +9,7 @@
 최정인 - CNN 이미지 분류 모델 구현
 
 이재솔 - 유니티 프로젝트와 CNN모델을 안드로이드 어플리케이션으로 통합
-</br>
+</br></br>
 
 ## # 1. 요약
 <img src="https://user-images.githubusercontent.com/86781939/201742932-c738bdd9-b737-4234-8cb2-bd3f3669258c.PNG"  width="551" height="315" >
