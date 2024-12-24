@@ -1,5 +1,16 @@
-# 2021 KPU Team Project
-### AR 기술을 이용한 가구 배치 어플리케이션
+# 2021 KPU Capstone Project
+
+[![Kotlin](https://img.shields.io/badge/Kotlin-1.5.20-blue.svg)](https://kotlinlang.org)
+[![Gradle](https://img.shields.io/badge/gradle-7.0.2-green.svg)](https://gradle.org/)
+[![Android Studio](https://img.shields.io/badge/Android%20Studio-4.0-green)](https://developer.android.com/studio)
+[![minSdkVersion](https://img.shields.io/badge/minSdkVersion-24-red)](https://developer.android.com/distribute/best-practices/develop/target-sdk)
+[![targetSdkVersion](https://img.shields.io/badge/targetSdkVersion-30-orange)](https://developer.android.com/distribute/best-practices/develop/target-sdk)
+<br>
+[![Unity](https://img.shields.io/badge/Unity-2020.3.26.f1-darkgray.svg)](https://kotlinlang.org)
+[![AR Core](https://img.shields.io/badge/AR%20Core-4.1.9-violet)](https://developer.android.com/distribute/best-practices/develop/target-sdk)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.8.0-darkorange)](https://developer.android.com/distribute/best-practices/develop/target-sdk)
+
+### AR 기술을 이용한 가구 배치 애플리케이션
 </br>
  
 ## # 역할분담
