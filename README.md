@@ -50,10 +50,6 @@ AR 기술을 이용한 가구 배치 애플리케이션
 ## Screens
 ![슬라이드1](https://user-images.githubusercontent.com/86781939/169832565-fd7c5f08-5d6b-47cd-b8cc-f42214c66474.png)
 
-
-## Articles
-Android - [Unity 프로젝트 연동, Unity 프로젝트가 실행되는 순간 앱이 종료되는 문제 해결](https://github.com/jaesol0105/ar_furniture_application_prototype?tab=readme-ov-file#ar-foundation-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%97%B0%EB%8F%99)
-
 ## Functions
 
 ### 1-1. 가구 배치
@@ -108,3 +104,6 @@ if (officeChair != null)
 }
 ```
 <br>
+
+## Articles
+Android - [Unity 프로젝트 연동, Unity 프로젝트가 실행되는 순간 앱이 종료되는 문제 해결](https://github.com/jaesol0105/ar_furniture_application_prototype?tab=readme-ov-file#ar-foundation-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%97%B0%EB%8F%99)
