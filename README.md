@@ -1,4 +1,4 @@
-# 2021 KPU Capstone Project
+# AR Furniture - 2022 KPU Capstone Project
 
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.5.20-blue.svg)](https://kotlinlang.org)
 [![Gradle](https://img.shields.io/badge/gradle-7.0.2-green.svg)](https://gradle.org/)
