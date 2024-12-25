@@ -13,7 +13,7 @@
 AR 기술을 이용한 가구 배치 애플리케이션
 </br>
 
-## [Thesis](https://drive.google.com/file/d/1z1_LuE23bzVGHNES-6Try46LxLytE1zr/view?usp=drive_link)
+## [Thesis](https://drive.google.com/file/d/1z1_LuE23bzVGHNES-6Try46LxLytE1zr/view?usp=sharing)
 
 ## Features
 ![슬라이드4](https://github.com/user-attachments/assets/470bc4c6-f824-4d5a-8334-24c4d30c0f21)
